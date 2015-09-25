@@ -16,6 +16,9 @@
 		1431F4DC1BB4E2A2005149D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431F4DA1BB4E2A2005149D5 /* LaunchScreen.storyboard */; };
 		1431F4E71BB4E2A2005149D5 /* TestProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431F4E61BB4E2A2005149D5 /* TestProTests.m */; };
 		1431F4F21BB4E2A2005149D5 /* TestProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431F4F11BB4E2A2005149D5 /* TestProUITests.m */; };
+		1431F5001BB4E4A0005149D5 /* 1938.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1431F4FF1BB4E4A0005149D5 /* 1938.mp4 */; settings = {ASSET_TAGS = (); }; };
+		1431F5021BB4E7D5005149D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1431F5011BB4E7D5005149D5 /* AVFoundation.framework */; };
+		1431F5041BB4E7DE005149D5 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1431F5031BB4E7DE005149D5 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		1431F4ED1BB4E2A2005149D5 /* TestProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1431F4F11BB4E2A2005149D5 /* TestProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProUITests.m; sourceTree = "<group>"; };
 		1431F4F31BB4E2A2005149D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1431F4FF1BB4E4A0005149D5 /* 1938.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1938.mp4; sourceTree = "<group>"; };
+		1431F5011BB4E7D5005149D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1431F5031BB4E7DE005149D5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1431F5041BB4E7DE005149D5 /* AVKit.framework in Frameworks */,
+				1431F5021BB4E7D5005149D5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,8 @@
 		1431F4BD1BB4E2A1005149D5 = {
 			isa = PBXGroup;
 			children = (
+				1431F5031BB4E7DE005149D5 /* AVKit.framework */,
+				1431F5011BB4E7D5005149D5 /* AVFoundation.framework */,
 				1431F4C81BB4E2A2005149D5 /* TestPro */,
 				1431F4E51BB4E2A2005149D5 /* TestProTests */,
 				1431F4F01BB4E2A2005149D5 /* TestProUITests */,
@@ -110,6 +120,7 @@
 				1431F4D21BB4E2A2005149D5 /* Main.storyboard */,
 				1431F4D81BB4E2A2005149D5 /* Assets.xcassets */,
 				1431F4DA1BB4E2A2005149D5 /* LaunchScreen.storyboard */,
+				1431F4FF1BB4E4A0005149D5 /* 1938.mp4 */,
 				1431F4DD1BB4E2A2005149D5 /* Info.plist */,
 				1431F4D51BB4E2A2005149D5 /* TestPro.xcdatamodeld */,
 				1431F4C91BB4E2A2005149D5 /* Supporting Files */,
@@ -246,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1431F5001BB4E4A0005149D5 /* 1938.mp4 in Resources */,
 				1431F4DC1BB4E2A2005149D5 /* LaunchScreen.storyboard in Resources */,
 				1431F4D91BB4E2A2005149D5 /* Assets.xcassets in Resources */,
 				1431F4D41BB4E2A2005149D5 /* Main.storyboard in Resources */,
