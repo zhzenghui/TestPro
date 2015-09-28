@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#include <objc/runtime.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    Class LSApplicationWorkspace_class = objc_getClass("LSApplicationWorkspace");
+//    NSObject* workspace = [LSApplicationWorkspace_class performSelector:@selector(defaultWorkspace)];
+//    NSLog(@"apps: %@", [workspace performSelector:@selector(allApplications)]);
+    
     return YES;
 }
 

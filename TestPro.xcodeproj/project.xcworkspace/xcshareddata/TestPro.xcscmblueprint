@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3249DC3B00035A052D3B49B1628BF5F520EE567",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "26D894C87E8DCD553D75B4D2D14369ECA0967C2A" : 0,
+    "B3249DC3B00035A052D3B49B1628BF5F520EE567" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88C21183-4BA9-4D62-A0C9-CFC6544A26B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "26D894C87E8DCD553D75B4D2D14369ECA0967C2A" : "..\/..\/..\/..\/..\/Users\/xy\/Documents\/SCRecorder",
+    "B3249DC3B00035A052D3B49B1628BF5F520EE567" : "TestPro\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestPro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestPro.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rFlex\/SCRecorder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26D894C87E8DCD553D75B4D2D14369ECA0967C2A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhzenghui\/TestPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3249DC3B00035A052D3B49B1628BF5F520EE567"
+    }
+  ]
+}
